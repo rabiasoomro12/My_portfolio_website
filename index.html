@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/037ad50704.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo" width="200" height="100">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Hi, I am <span>Rabia</span> Soomro from Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> 
+                    I am Rabia Soomro, a passionate Systems Engineering student and aspiring Front-End Developer. 
+                    Currently interning as a Front-End Developer at DIGI SKED, I focus on creating responsive, 
+                    user-friendly websites. With a strong foundation in coding and design, I aim to build projects 
+                    that enhance user experiences. I enjoy learning new technologies and improving my skills. 
+                    My goal is to continuously grow in the tech industry and contribute to impactful, 
+                    creative projects. Let's connect and collaborate!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiences', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><b>Front-End</b></span><br><i>Designing Websites</i></li>
+                            <li><span><b>Arduino Programming</b></span><br><i>Embedded Systems Programming</i></li>
+                             <li><span><b>C++ and JAVA</b></span><br><i>Software Development</i></li>
+                            <li><span><b>AutoCAd</b></span><br><i>2D and 3D Modelling</i></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiences">
+                        <ul>
+                           <li><span><b>Tech Fusion Crew</b></span><br><i>Founder</i></li>
+                            <li><span><b>Internship at CodeAlpha</b></span><br><i>C++ Developer</i></li>
+                             <li><span><b>MLSA Sukkur</b></span><br><i>Event Organizer</i></li>
+                            <li><span><b>Internship at DigiSKED</b></span><br><i>Front-End Developer</i></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                             
+                            <li><span><b>Computer Systems Engineering</b></span><br><i>Sukkur IBA University</i></li>
+                            <li><span><b>Intermediate</b></span><br><i>Govt: College for Women</i></li>
+                               
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creating visually engaging and user-friendly web experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Designing user interfaces and experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Developing applications with engaging designs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg" alt="Work 1">
+                    <div class="layer">
+                        <h3>Semester GPA Calculator</h3>
+                        <p>This calculator is created using C++ and JAVA GUI for the students of depatment of CSE</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg" alt="Work 2">
+                    <div class="layer">
+                        <h3>Smart Blind Stick</h3>
+                        <p>A Efficient Product for Blind People using Arduino Programming</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg" alt="Work 3">
+                    <div class="layer">
+                        <h3>Hotel Management System</h3>
+                        <p>A Smart Way For Hotel MAnagement Using JAVA</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> soomrorabia161@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0323-5969245</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/btwrabiyaa__/profilecard/?igsh=azRweTlja3F5bHFj"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rabia-soomro-081378253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Rabia.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Rabia. Made with <i class="fa-solid fa-heart"></i> by Rabia Soomro</p>
+    </div>
+    <script>
+        function opentab(tabname, event) {
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Form validation
+    const form = document.querySelector('form');
+    form.addEventListener('submit', function (e) {
+        const name = form.querySelector('input[name="Name"]').value;
+        const email = form.querySelector('input[name="email"]').value;
+        const message = form.querySelector('textarea[name="Message"]').value;
+
+        if (!name || !email || !message) {
+            alert('Please fill out all fields.');
+            e.preventDefault();
+        }
+    });
+    </script>
+     
+
+</body>
+</html>
